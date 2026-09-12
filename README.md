@@ -26,6 +26,13 @@
 
 ---
 
+## 📑 Презентации
+
+- [**Разработка API на FastAPI**](https://drive.google.com/file/d/1_dRnCyXitKKsm9FJ_81HElqMQg49AxaA/view?usp=sharing) — постановка задачи, структура приложения и взаимодействие клиента с сервером.
+- [**Развёртывание API в интернете**](https://drive.google.com/file/d/17h5oKsr09KZopREPniUm00pSYY_a_20P/view?usp=sharing) — публикация на GitHub, настройка FastAPI Cloud и подключение к удалённому серверу.
+
+---
+
 ## 🎬 Примеры работы
 
 ### 🔌 Выполнение запроса
