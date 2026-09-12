@@ -16,3 +16,6 @@ dependencies = [
 
 [tool.fastapi]
 entrypoint = "api:app"
+
+[tool.setuptools]
+py-modules = ["api", "gravity_backend", "gravity_map", "check_api"]
