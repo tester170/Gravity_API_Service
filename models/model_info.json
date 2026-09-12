@@ -1,0 +1,41 @@
+{
+  "source_notebook": "ДПО_Практическое_занятие_топографическая_поправка_РФ_ML_DL_Keras_компактный_терминология_исправлена.ipynb",
+  "source_notebook_sha256": "26a79aaae64003b5321d527017f2ce7f3737d222f6efdb34095409015ffaa62a",
+  "source_array_sha256": "f60cf1081ffc661cda6789f624d9184ade08b5c813b30e7f42cb22d8cec84367",
+  "features": [
+    "elevation_m",
+    "slope",
+    "curvature",
+    "tpi_7",
+    "tpi_31",
+    "tpi_121",
+    "roughness_7",
+    "roughness_31",
+    "relief_31"
+  ],
+  "model": "StandardScaler + Ridge(lsqr)",
+  "alpha": 100.0,
+  "validation_region": "altai",
+  "validation_rmse_mgal": 11.878914833068848,
+  "train_regions": [
+    "altai",
+    "sayan",
+    "south_ural",
+    "sikhote_alin",
+    "kamchatka",
+    "transbaikalia",
+    "west_siberian_plain"
+  ],
+  "train_rows": 700000,
+  "test_region": "north_caucasus",
+  "test_rows": 100000,
+  "test_rmse_mgal": 15.818171501159668,
+  "notebook_test_rmse_mgal": 15.818171501159668,
+  "demo_rows": 6400,
+  "demo_selection": "Every 15th raster row and column, offset 7, no error-based filtering",
+  "tile": "N43E042",
+  "crs": "EPSG:4326",
+  "original_grid_degrees": 0.0008333333333333334,
+  "reference": "SRTM2gravity (calculated field, not observed gravity)",
+  "dem": "Copernicus DEM GLO-90 reprojected to the notebook grid"
+}
