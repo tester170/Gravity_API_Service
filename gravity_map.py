@@ -31,7 +31,7 @@ def build_gravity_map(data):
             hovertemplate=("Широта: %{lat:.5f}°<br>Долгота: %{lon:.5f}°<br>"
                            "Исходное: %{customdata[0]:.2f} мГал<br>"
                            "После Ridge: %{customdata[1]:.2f} мГал<br>"
-                           "Коррекция: %{customdata[2]:+.2f} мГал<extra></extra>"),
+                           "Коррекция: %{customdata[2]:.2f} мГал<extra></extra>"),
         ))
 
     buttons = [  # Каждый пункт показывает только выбранный слой.
